@@ -7,6 +7,7 @@
 
   const titleClickHandler = function(event){
     console.log('Link was clicked!');
+    
   
     /* remove class 'active' from all article links  */
 
@@ -20,7 +21,7 @@
   
     /* remove class 'active' from all articles */
 
-    const activeArticles = document.querySelectorAll('.titles a.active');
+    const activeArticles = document.querySelectorAll('.post.active');
 
     for(let activeArticle of activeArticles){
         activeArticle.classList.remove('active');
@@ -35,8 +36,10 @@
 }
   
   
-  const links = document.querySelectorAll('.titles a');
+  /*const links = document.querySelectorAll('.titles a');
   
   for(let link of links){
     link.addEventListener('click', titleClickHandler);
-  }
+  }*/
+
+  
