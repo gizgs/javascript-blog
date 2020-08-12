@@ -19,7 +19,7 @@
   
     /*[IN PROGRESS] add class 'active' to the clicked link */
 
-    const clickedElement = document.querySelectorAll('.titles a.active');
+    const clickedElement = this;
     clickedElement.classList.add('active')
 
     console.log('clickedElement:', clickedElement);
